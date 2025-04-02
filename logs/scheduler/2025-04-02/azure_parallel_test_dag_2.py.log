@@ -1,0 +1,18 @@
+[2025-04-02T17:36:37.113-0400] {processor.py:161} INFO - Started process (PID=90924) to work on /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py
+[2025-04-02T17:36:37.114-0400] {processor.py:830} INFO - Processing file /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py for tasks to queue
+[2025-04-02T17:36:37.114-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.114-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py
+[2025-04-02T17:36:37.402-0400] {processor.py:840} INFO - DAG(s) 'azure_parallel_test_2' retrieved from /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py
+[2025-04-02T17:36:37.510-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.510-0400] {override.py:1829} INFO - Created Permission View: can read on DAG:azure_parallel_test_2
+[2025-04-02T17:36:37.513-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.513-0400] {override.py:1829} INFO - Created Permission View: can delete on DAG:azure_parallel_test_2
+[2025-04-02T17:36:37.515-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.515-0400] {override.py:1829} INFO - Created Permission View: can edit on DAG:azure_parallel_test_2
+[2025-04-02T17:36:37.516-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.515-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-02T17:36:37.519-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.519-0400] {dag.py:3118} INFO - Creating ORM DAG for azure_parallel_test_2
+[2025-04-02T17:36:37.519-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:36:37.519-0400] {dag.py:3954} INFO - Setting next_dagrun for azure_parallel_test_2 to None, run_after=None
+[2025-04-02T17:36:37.526-0400] {processor.py:183} INFO - Processing /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py took 0.415 seconds
+[2025-04-02T17:43:06.676-0400] {processor.py:161} INFO - Started process (PID=36943) to work on /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py
+[2025-04-02T17:43:06.677-0400] {processor.py:830} INFO - Processing file /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py for tasks to queue
+[2025-04-02T17:43:06.678-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:43:06.677-0400] {dagbag.py:540} INFO - Filling up the DagBag from /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py
+[2025-04-02T17:43:06.960-0400] {processor.py:840} INFO - DAG(s) 'azure_parallel_test_2' retrieved from /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py
+[2025-04-02T17:43:06.997-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:43:06.997-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-04-02T17:43:07.031-0400] {logging_mixin.py:188} INFO - [2025-04-02T17:43:07.031-0400] {dag.py:3954} INFO - Setting next_dagrun for azure_parallel_test_2 to None, run_after=None
+[2025-04-02T17:43:07.038-0400] {processor.py:183} INFO - Processing /Users/prasenjeet.gadhe/Documents/05. Nokia_PoV/Parallel_Test/dags/azure_parallel_test_dag_2.py took 0.363 seconds
