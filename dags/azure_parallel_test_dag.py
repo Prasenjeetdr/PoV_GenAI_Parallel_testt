@@ -5,9 +5,9 @@ from openai import AzureOpenAI
 
 def azure_call(task_id):
     client = AzureOpenAI(
-        api_key="your-api-key",  # replace with yours
+        api_key="67d029a93d0a4d0c330673ee",  # Temp borrowed from Shu
         api_version="2023-05-15",
-        azure_endpoint="https://your-endpoint.openai.azure.com/"  # replace with yours
+        azure_endpoint="https://shu-nokia-pov.openai.azure.com/"  
     )
 
     completion = client.chat.completions.create(
